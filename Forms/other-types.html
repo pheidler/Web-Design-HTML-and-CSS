@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="http://www.example.com/profile.php">
+		<!--Radio buttons-->
+		<p>Please select your favorite genre:
+			<br />
+			<!-- Checked attribute indicates which value should be selected when the page loads -->
+			<input type="radio" name="genre" value="rock" checked="checked" />Rock
+			<input type="radio" name="genre" value="pop" />
+			Pop
+			<input type="radio" name="genre" value="jazz"/>
+			Jazz
+		</p>
+	</form>
+	<form>
+		<!--Checkbox-->
+		<p>Please select your favorite music service(s):
+			<br />
+			<!--Name is general toerm, value is specific for each option. -->
+			<input type="checkbox" name="service" value="itunes" checked="checked" />iTunes
+			<input type="checkbox" name="service" value="lastfm" />Last.fm
+			<input type="checkbox" name="service" value="spotify" />Spotify
+	    </p>
+	</form>
+	<form>
+		<!--Drop down list box-->
+		<p>What device do you listen to music on?</p>
+		<select name="devices" >
+			<option value="ipod">iPod</option>
+			<option value="radio" selected="selected"'>Radio</option>
+			<option value="computer">Computer</option>
+		</select>
+	</form>
+</html>
